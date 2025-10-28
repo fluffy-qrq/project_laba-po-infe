@@ -1,5 +1,6 @@
 @startuml
 left to right direction
+skinparam packageStyle rectangle
 actor "Пользователь" as Pacient
 actor "Администратор" as Admin
 package "Система" {
