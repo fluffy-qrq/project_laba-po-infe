@@ -1,1 +1,24 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "Пользователь" as Pacient
+actor "Администратор" as Admin
+package "Система" {
+usecase "Запись на прием" as Registration onlain
+usecase "Запись на прием" as Registration offline
+usecase "Запись на прием" as Registration offline Admin
+usecase "Вывод цены за услугу" as Price
+usecase "Проверка наличия свободных палат(доступность записи)" as Reach
+usecase "Обращение в систему" as Login Admin
+usecase "Обращение в систему" as Login pacient
+}
 
+Pacient --> Login pacient
+Pacient --> Registration onlain
+Pacient --> Registration offline
+
+Admin --> Registration offline Admin
+Admin --> Price
+Admin --> Reach
+Admin --> Login Admin
+@enduml
