@@ -1,6 +1,5 @@
 @startuml
 left to right direction
-
 actor "Пользователь" as Pacient
 actor "Администратор" as Admin
 package "Система" {
