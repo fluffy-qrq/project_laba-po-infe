@@ -1,1 +1,26 @@
-
+erDiagram
+    HOSPITAL_WARD {
+        int ward_id PK
+        int free_room
+        int total_beds
+        varchar ward_type
+    }
+    
+    PATIENT {
+        int patient_id PK
+        varchar name
+        varchar surname
+        int age
+        text trouble
+        int ward_id FK
+    }
+    
+    PRICE_LIST {
+        int price_id PK
+        varchar service_name
+        decimal price
+        varchar ward_type
+    }
+    
+    HOSPITAL_WARD ||--o{ PATIENT : contains
+    HOSPITAL_WARD ||--o{ PRICE_LIST : has_prices
