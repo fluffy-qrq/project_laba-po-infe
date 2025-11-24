@@ -34,4 +34,6 @@
 
 ## **ER-диаграмма базы данных**
 https://github.com/fluffy-qrq/project_laba-po-infe/blob/c27f3e4c64f8167dbfae7d4bde7e5f4f037d7619/docs/diagrams./ER%20-%20diagram#L1-L26(URL)
+
+
 https://github.com/fluffy-qrq/project_laba-po-infe/blob/bf54f4a0d03541a62a5970fe4d75243cd1097bc4/docs/diagrams./ER-diagram.png(URL)
