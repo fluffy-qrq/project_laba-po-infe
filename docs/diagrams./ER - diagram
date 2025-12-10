@@ -3,7 +3,7 @@ erDiagram
         int ward_id PK
         int free_room
         int total_beds
-        varchar ward_type
+        varchar ward_type PK
     }
     
     PATIENT {
@@ -19,7 +19,7 @@ erDiagram
         int price_id PK
         varchar service_name
         decimal price
-        varchar ward_type
+        varchar ward_type FK
     }
     
     HOSPITAL_WARD ||--o{ PATIENT : contains
