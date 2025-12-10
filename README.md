@@ -33,4 +33,4 @@
 4. Вывод цены за оказанную услугу.
 
 ## **ER-диаграмма базы данных**
-[<img width="1160" height="1166" alt="image" src="https://github.com/user-attachments/assets/7ef00428-33dd-49b0-9921-6bc4da0fb14d" />](URL)
+[https://github.com/fluffy-qrq/project_laba-po-infe/blob/a1baccda8201b85ac7f0c6fa81fd6faa6f5a561c/docs/diagrams./ER%20-diagram.png] (URL)
